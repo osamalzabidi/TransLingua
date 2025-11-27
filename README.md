@@ -28,10 +28,12 @@ pip install flet[all] googletrans
 python3 main.py
 ```
 
-### **Latest Version:** `v1.0.0`  
-**Release Date:** December 2024  
-**Python:** 3.7+  
-**Platform:** Windows, macOS, Linux  
+<!--
+### **Latest Version:** `v1.0.0`
+**Release Date:** November 27, 2025
+**Python:** 3.12+
+**Platform:** Windows, macOS, Linux
+-->
 
 ---
 
