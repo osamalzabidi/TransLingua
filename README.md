@@ -22,7 +22,7 @@ git clone https://github.com/osamalzabidi/TransLingua.git
 cd TransLingua
 
 # Install dependencies
-pip install flet[all] googletrans
+poetry install .
 
 # Run the application
 python3 main.py
