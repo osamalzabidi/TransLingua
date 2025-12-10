@@ -22,7 +22,7 @@ git clone https://github.com/osamalzabidi/TransLingua.git
 cd TransLingua
 
 # Install dependencies
-poetry install .
+pip install flet[all] googletrans
 
 # Run the application
 python3 main.py
@@ -70,27 +70,26 @@ python3 main.py
 
 ### **High Priority**
 - 🔲 Pronunciation display
-- 🔲 Smarter auto-detect language
-- 🔲 Settings Page
+- ✅ Smarter auto-detect language
+- ✅ Settings Page
 
 ### **Settings Page Features**
-- 🔲 Proxy configuration
-- 🔲 Startup window size
-- 🔲 Service URLs
-- 🔲 User agent customization
+- ✅ Proxy configuration
+- ✅ Startup window size
+- ✅ Service URLs
+- ✅ User agent customization
 - 🔲 Timeout settings
 - 🔲 HTTP/2 toggle
-- 🔲 Default languages
+- ✅ Default languages
 
 ### **Helper Methods**
-- 🔲 Text cleaning utilities (`_`, and other untranslatable chars)
+- ✅ Text cleaning utilities (`_`, and other untranslatable chars)
 - 🔲 Translation history
 
 ### **Additional Features**
 - 🔲 About page
 - 🔲 Offline Mode
 - 🔲 Keyboard shortcuts
-- 🔲 Offline mode
 - 🔲 Additional translation engines
 - 🔲 Translation memory
 - 🔲 Document Translation (PDF, DOC, DOCX, TXT)
@@ -103,12 +102,6 @@ python3 main.py
 ## 🤝 Contributing
 Contributions are welcome!  
 Please check the contribution guide.
-
-### **Areas Needing Contribution**
-- Voice recognition engine
-- Camera OCR
-- Offline mode
-- Improve UI/UX
 
 ---
 
